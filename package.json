@@ -1,0 +1,33 @@
+{
+  "name": "boilerplate-reactjs-rsbuild-ts",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "keywords": [
+    "react",
+    "rect-dom",
+    "rect-router-dom",
+    "typescript",
+    "frontend",
+    "rsbuild"
+  ],
+  "author": "Giovanni Cortazar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.0.1",
+    "@rsbuild/plugin-react": "^1.0.1",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-router-dom": "^5.3.3",
+    "typescript": "^5.5.2"
+  }
+}
